@@ -13,9 +13,3 @@ fs.readdir('./.git', 'utf-8', function(err, files){
 	}
 	console.log('\nWriting the file done');
 });
-
-
-fs.writeFile('./gitdirectory.txt', '', function(err, data){
-	if(err) throw err;
-	console.log('\nClearing the file done');
-});
